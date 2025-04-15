@@ -1,1 +1,110 @@
 Problem-1:
+Given a number N. Print all even numbers between 1 and N inclusive in separate lines.
+
+Input
+Only one line containing a number N (1 ≤ N ≤ 103).
+
+Output
+Print the answer according to the required above. If there are no even numbers print -1.
+
+Examples
+InputCopy
+10
+OutputCopy
+2
+4
+6
+8
+10
+InputCopy
+5
+OutputCopy
+2
+4
+
+Problem: 2
+C. Even, Odd, Positive and Negative
+time limit per test1 second
+memory limit per test256 megabytes
+Given N numbers. Count how many of these values are even, odd, positive and negative.
+
+Input
+First line contains one number N (1 ≤ N ≤ 103) number of values.
+
+Second line contains N numbers (-105 ≤ Xi ≤ 105).
+
+Output
+Print four lines with the following format:
+
+First Line: "Even: X", where X is the number of even numbers in the given input.
+
+Second Line: "Odd: X", where X is the number of odd numbers in the given input.
+
+Third Line: "Positive: X", where X is the number of positive numbers in the given input.
+
+Fourth Line: "Negative: X", where X is the number of negative numbers in the given input.
+
+Example
+InputCopy
+5
+-5 0 -3 -4 12
+OutputCopy
+Even: 3
+Odd: 2
+Positive: 1
+Negative: 3
+Note
+First Example :
+
+Even Numbers are : 0, -4 , 12
+
+Odd Numbers are : -5 , -3
+
+Positive Numbers are : 12
+
+Negative Numbers are : -5 , -3 , -4
+
+
+Problem 3:
+Given multiple lines each line contains a number X which is a password. Print "Wrong" if the password is incorrect otherwise, print "Correct" and terminate the program.
+
+Note: The "Correct" password is the number 1999.
+
+Input
+The input contains several passwords.
+
+Each line contains a number X (103 ≤ X ≤ 104 - 1).
+
+Output
+Print "Wrong" if the password is typed wrong otherwise, print "Correct" if the password is typed correctly.
+
+Example
+InputCopy
+2200
+1020
+1999
+1000
+9999
+OutputCopy
+Wrong
+Wrong
+Correct
+
+
+Problem 4 :
+Given a number N, and N numbers, find maximum number in these N numbers.
+
+Input
+First line contains a number N (1 ≤ N ≤ 103).
+
+Second line contains N numbers Xi (0 ≤ Xi ≤ 109).
+
+Output
+Print the maximum number.
+
+Example
+InputCopy
+5
+1 8 5 7 5
+OutputCopy
+8
